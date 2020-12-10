@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "MRAT: The Mixed Reality Analytics Toolkit"
+date:   2020-4-25 3:24:59 +00:00
+image: /images/mrat.jpg
+categories: research
+author: "Alex Raistrick"
+website: https://www.mi2lab.com/research/mrat/
+---
+
+Analysing VR in VR
