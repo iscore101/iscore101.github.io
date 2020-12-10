@@ -75,7 +75,7 @@
           {% if cat == 'research' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -131,7 +131,7 @@
           {% if cat == 'coursework' %}
           <tr>
             <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+              <img src="/{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
             </td>
             <td style="padding:2.5%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
@@ -187,11 +187,10 @@
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
           
-          <tr><a href="https://web.eecs.umich.edu/~nham/EECS398F19/">U-M EECS 398 Fall 2019 </a></tr>
-          <tr><a href="eecs280.org">U-M EECS 280 Winter 2019 </a> </tr>
-          <tr><a href="eecs280.org">U-M EECS 280 Fall 2020 </a> </tr>
+          <tr><td><a href="https://web.eecs.umich.edu/~nham/EECS398F19/">U-M EECS 398 Fall 2019 </a></td></tr>
+          <tr><td><a href="eecs280.org">U-M EECS 280 Winter 2019 </a></td></tr>
+          <tr><td><a href="eecs280.org">U-M EECS 280 Fall 2020 </a></td></tr>
 
         </table>
       </td>
