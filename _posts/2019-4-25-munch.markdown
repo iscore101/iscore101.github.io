@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Maximal Munch: Internet Search Engine in C++"
+date:   2019-4-25 3:24:59 +00:00
+image: /images/munch.jpg
+categories: coursework
+author: "Alex Raistrick"
+
+---
+
+Internet Search Engine built from scratch in C++, named after [this parsing principle]{https://en.wikipedia.org/wiki/Maximal_munch}
