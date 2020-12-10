@@ -9,4 +9,4 @@ website: https://www.mi2lab.com/research/mrat/
 venue: CHI
 ---
 
-Received a Best Paper Award in publication at CHI 2020. Designed application-specific clustering and visualization for 3D interaction research.
+Received a **Best Paper Award** in publication at CHI 2020. Contributes a framework for performing AR/VR user studies, then analysing the generated events and trajectories as an augmented reality overlay in the same environment they were generated.
