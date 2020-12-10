@@ -6,6 +6,7 @@ image: /images/mrat.jpg
 categories: research
 author: "Alex Raistrick"
 website: https://www.mi2lab.com/research/mrat/
+venue: CHI
 ---
 
-Analysing VR in VR
+Received a Best Paper Award in publication at CHI 2020. Designed application-specific clustering and visualization for 3D interaction research.

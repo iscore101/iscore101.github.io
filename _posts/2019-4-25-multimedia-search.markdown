@@ -8,4 +8,5 @@ author: "Alex Raistrick"
 poster: /pdfs/multimedia_search_poster.pdf
 ---
 
-C++ Search Engine from Scratch
+Best Poster award for work in implementing BERT-based image search, and follow up exploration on joint
+image-text inputs for multimodal image search.

@@ -2,7 +2,7 @@
 layout: post
 title:  "Maximal Munch: Internet Search Engine in C++"
 date:   2019-4-25 3:24:59 +00:00
-image: /images/munch.jpg
+image: /images/munch.png
 categories: coursework
 author: "Alex Raistrick"
 

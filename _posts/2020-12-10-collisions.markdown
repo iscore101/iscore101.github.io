@@ -6,6 +6,7 @@ image: /images/collision.jpg
 categories: research
 author: "Alex Raistrick"
 paper: /pdfs/collision.pdf
+venue: preprint
 ---
 
 Learning by bumping into things
