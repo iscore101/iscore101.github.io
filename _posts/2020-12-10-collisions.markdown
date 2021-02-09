@@ -5,6 +5,7 @@ date:   2020-10-10 3:24:59 +00:00
 image: /images/collision.jpg
 categories: research
 author: "Alex Raistrick"
+authors: "Alex Raistrick, Nilesh Kulkarni and David Fouhey"
 venue: preprint
 ---
 
