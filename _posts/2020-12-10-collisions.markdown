@@ -6,6 +6,9 @@ image: /images/collision.jpg
 categories: research
 author: "Alexander Raistrick"
 authors: "Alexander Raistrick, Nilesh Kulkarni and David Fouhey"
-venue: preprint (coming soon)
+venue: preprint, arXiv
+website: https://araistrick.github.io/collisionreplay
+code: https://github.com/araistrick/collisionreplay
+paper: https://arxiv.org/pdf/2105.01061.pdf
 ---
 
