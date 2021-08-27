@@ -17,6 +17,13 @@
 </head>
 
 <body>
+
+  <script>
+    function showEmail() {
+      document.getElementById('emailHolder').innerHTML = 'ude.notecnirp@kcirtsiara'.split("").reverse().join("")
+    }
+  </script>
+
   <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
     <tr style="padding:0px">
       <td style="padding:0px">
@@ -34,7 +41,7 @@
                 Previously, I also researched 3D visualization for VR with <a href="http://michael-nebeling.de/">Michael Nebeling</a> in the <a href="https://www.mi2lab.com/">Michigan Information Interaction Lab</a>
               </p>
               <p style="text-align:center">
-                <a> &#97;&#108;&#101;&#120;&#114;&#97;&#105;&#115;&#64;&#117;&#109;&#105;&#99;&#104;&#46;&#101;&#100;&#117; </a> &nbsp;/&nbsp;
+                <a href='#' onclick='showEmail()' id='emailHolder'> Click to Reveal Email </a> &nbsp;/&nbsp;
                 <a href="https://github.com/araistrick">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://scholar.google.com/citations?user=hw7BEc0AAAAJ&hl=en">Google Scholar</a> &nbsp;/&nbsp;
                 <a href="https://www.linkedin.com/in/araistrick/"> LinkedIn </a> &nbsp;/&nbsp;
