@@ -9,5 +9,5 @@ website: https://www.mi2lab.com/research/mrat/
 video: https://www.youtube.com/watch?v=DG5pqrQPdBc
 paper: http://michael-nebeling.de/publications/chi20b.pdf
 code: https://github.com/mi2lab/mrat
-venue: CHI 2020 **(Best Paper)**
+venue: CHI 2020 <b>(Best Paper)</b>
 ---
