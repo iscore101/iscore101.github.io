@@ -9,7 +9,5 @@ website: https://www.mi2lab.com/research/mrat/
 video: https://www.youtube.com/watch?v=DG5pqrQPdBc
 paper: http://michael-nebeling.de/publications/chi20b.pdf
 code: https://github.com/mi2lab/mrat
-venue: CHI
+venue: CHI 2020 **(Best Paper)**
 ---
-
-Received a **Best Paper Award** in publication at CHI 2020. Contributes a framework for performing AR/VR user studies, then analysing the generated events and trajectories as an augmented reality overlay in the same environment they were generated.
