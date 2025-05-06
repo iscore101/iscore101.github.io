@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "SIR Epedemic On Random Regular Graphs"
+title:  "SIR Epidemic On Random Regular Graphs"
 date:   2025-03-30 3:24:59 +00:00
 image: /images/coupling_image_tree.png
 categories: research    
