@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Linear Function Approximation for Q-learning"
+title:  "The Automorphism Group of Graph Complements"
 date:   2023-06-01 3:24:59 +00:00
 image: /images/complete_graph.png
 categories: project  
