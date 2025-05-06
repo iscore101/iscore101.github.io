@@ -1,9 +1,9 @@
 ---
 layout: post
 title:  "SIR Epedemic On Random Regular Graphs"
-date:   2023-07-06 3:24:59 +00:00
+date:   2025-03-30 3:24:59 +00:00
 image: /images/coupling_image_tree.png
 categories: research    
 authors: "Anthony Wong, under the guidance of Oanh Nguyen"
-paper: https://drive.google.com/file/d/1hRrcn4anwWsKCMasSr_86u8I1Q-r05xd/view?usp=sharing
+paper: /pdfs/random_graphs_research.pdf
 ---
