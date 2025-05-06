@@ -5,6 +5,6 @@ date:   2024-12-30 3:24:59 +00:00
 image: /images/projection_to_space.png
 categories: project  
 authors: "Anthony Wong"
-paper: /pdfs/SVD_project.pdf
+paper: /pdfs/qlearning_project.pdf
 ---
 
