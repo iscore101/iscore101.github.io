@@ -68,7 +68,89 @@
             </td>
           </tr>
         </table>
-
+		<!--INTERNSHIP POSTS-->
+		
+		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+		  <tr>
+		    <td style="padding:2.5%;width:100%;vertical-align:middle">
+		      <h2>Work Experience</h2>
+		    </td>
+		  </tr>
+		</table>
+		
+		{% assign work_posts = site.posts | where_exp: 'p', 'p.categories contains "work"' %}
+		
+		<!-- Top 3 (most important) -->
+		<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+		  {% for post in work_posts limit:3 %}
+		  <tr>
+		    <td style="padding:2%;width:20%;vertical-align:middle;min-width:120px">
+		      <div style="text-align:center;">
+		        <img src="{{post.image}}" alt="project image" style="width:40%; height:auto;" />
+		      </div>
+		    </td>
+		    <td style="padding:2%;width:75%;vertical-align:middle">
+		      <a href="{{post.website}}"><h3>{{post.title}}</h3></a>
+		      {% if post.period %}<h3>{{ post.period }}</h3>{% endif %}
+		      {% if post.paper %}<a href="{{post.paper}}">paper</a> /{% endif %}
+		      {% if post.patent %} <a href="{{post.patent}}">patent</a> /{% endif %}
+		      {% if post.patent2 %} <a href="{{post.patent2}}">patent #2</a> /{% endif %}
+		      {% if post.patent3 %} <a href="{{post.patent3}}">patent #3</a> /{% endif %}
+		      {% if post.video %} <a href="{{post.video}}">video</a> /{% endif %}
+		      {% if post.video2 %} <a href="{{post.video2}}">video #2</a> /{% endif %}
+		      {% if post.code %} <a href="{{post.code}}">code</a>{% endif %}
+		      {% if post.poster %} / <a href="{{post.poster}}">poster</a>{% endif %}
+		      {% if post.slides %} / <a href="{{post.slides}}">slides</a>{% endif %}
+		      <p></p>
+		      {{ post.excerpt }}
+		    </td>
+		  </tr>
+		  {% endfor %}
+		</table>
+		
+		<!-- Everything after the top 3 inside a graceful dropdown -->
+		{% assign more_count = work_posts | size | minus: 3 %}
+		{% if more_count > 0 %}
+		<details class="work-dropdown">
+		  <summary style="padding-left:28px; padding-top:20px;">Show {{ more_count }} more experience{% if more_count > 1 %}s{% endif %}</summary>
+		  <div style="margin-top:12px;">
+		    <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+		      {% for post in work_posts offset:3 %}
+		      <tr>
+		        <td style="padding:2%;width:20%;vertical-align:middle;min-width:120px">
+		          <div style="text-align:center;">
+		            {% if post.image == '/images/minregret.png' %}
+		            <img src="{{post.image}}" alt="project image" style="width:100%; height:auto;" />
+		            {% else %}
+		            <img src="{{post.image}}" alt="project image" style="width:40%; height:auto;" />
+		            {% endif %}
+		          </div>
+		        </td>
+		        <td style="padding:2%;width:75%;vertical-align:middle">
+		          <a href="{{post.website}}"><h3>{{post.title}}</h3></a>
+		          {% if post.period %}<h3>{{ post.period }}</h3>{% endif %}
+		          {% if post.paper %}<a href="{{post.paper}}">paper</a> /{% endif %}
+		          {% if post.patent %} <a href="{{post.patent}}">patent</a> /{% endif %}
+		          {% if post.patent2 %} <a href="{{post.patent2}}">patent #2</a> /{% endif %}
+		          {% if post.patent3 %} <a href="{{post.patent3}}">patent #3</a> /{% endif %}
+		          {% if post.video %} <a href="{{post.video}}">video</a> /{% endif %}
+		          {% if post.video2 %} <a href="{{post.video2}}">video #2</a> /{% endif %}
+		          {% if post.code %} <a href="{{post.code}}">code</a>{% endif %}
+		          {% if post.poster %} / <a href="{{post.poster}}">poster</a>{% endif %}
+		          {% if post.slides %} / <a href="{{post.slides}}">slides</a>{% endif %}
+		          <p></p>
+		          {{ post.excerpt }}
+		        </td>
+		      </tr>
+		      {% endfor %}
+		    </table>
+		  </div>
+		</details>
+		{% endif %}
+		
+		<br>
+		<br>
+		<br>
         <!-- RESEARCH POSTS-->
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
