@@ -90,7 +90,10 @@
 		      </div>
 		    </td>
 		    <td style="padding:2%;width:75%;vertical-align:middle">
-				<h3>{{post.title}}</h3>
+				<h3 style="color: blue; text-decoration: underline; cursor: pointer;">
+  {{ post.title }}
+</h3>
+
 		      {% if post.period %}<h3>{{ post.period }}</h3>{% endif %}
 		      {% if post.paper %}<a href="{{post.paper}}">paper</a> /{% endif %}
 		      {% if post.patent %} <a href="{{post.patent}}">patent</a> /{% endif %}
@@ -127,7 +130,10 @@
 		          </div>
 		        </td>
 		        <td style="padding:2%;width:75%;vertical-align:middle">
-		          <h3>{{post.title}}</h3>
+		          <h3 style="color: blue; text-decoration: underline; cursor: pointer;">
+  {{ post.title }}
+</h3>
+
 		          {% if post.period %}<h3>{{ post.period }}</h3>{% endif %}
 		          {% if post.paper %}<a href="{{post.paper}}">paper</a> /{% endif %}
 		          {% if post.patent %} <a href="{{post.patent}}">patent</a> /{% endif %}
