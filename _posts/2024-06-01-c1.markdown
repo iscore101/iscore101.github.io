@@ -4,6 +4,6 @@ title:  "SWE Intern at Capital One"
 image: /images/c1.png
 categories: work  
 period: June 2024 — August 2024
-excerpt: developed LLM chatbot to customize responses for customers based on their banking data using RAG
+excerpt: I developed LLM chatbot to customize responses for customers based on their banking data using RAG
 
 ---
